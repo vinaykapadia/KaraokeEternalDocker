@@ -1,6 +1,6 @@
 FROM centos:centos7
 
-MAINTAINER David Chen <david@davidchen.blog>
+MAINTAINER Vinay Kapadia <dev@vkapadia.com>
 
 RUN curl -sL https://rpm.nodesource.com/setup_10.x | bash -
 RUN yum clean all && yum makecache fast
