@@ -6,7 +6,7 @@ RUN curl -sL https://rpm.nodesource.com/setup_16.x | bash -
 RUN yum clean all && yum makecache fast
 RUN yum install -y gcc-c++ make git
 RUN yum install -y nodejs
-RUN git clone https://github.com/vinaykapadia/KaraokeEternal.git
+RUN git clone https://github.com/bhj/KaraokeEternal.git
 WORKDIR /KaraokeEternal
 
 RUN npm install
